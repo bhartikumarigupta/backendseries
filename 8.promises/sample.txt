@@ -1,0 +1,1 @@
+promises are the better way and cleaner way to handle  asynchronous code as simple as that when you compare promises with callbacks   

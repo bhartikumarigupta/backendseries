@@ -1,0 +1,15 @@
+<h1>
+    Welcome to home page
+</h1>
+<label>
+    List of users:
+</label>
+<ul>
+
+    <% users.forEach(function(user) { %>
+        <li>
+            <%= user.name %> - <%= user.email %>
+        </li>
+        <% }); %>
+
+</ul>

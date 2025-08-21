@@ -1,0 +1,2 @@
+This is an asynchronous file creation example.
+ This is an appended line in the async file.

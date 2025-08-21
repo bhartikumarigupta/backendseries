@@ -1,0 +1,13 @@
+const path = require('path');
+console.log('Directory name:', path.dirname(__filename));
+console.log('File name:', path.basename(__filename));
+console.log('File extension:', path.extname(__filename));
+console.log('Path separator:', path.sep);
+console.log('Path delimiter:', path.delimiter);
+console.log('Parsed path:', path.parse(__filename));
+console.log('Joined path:', path.join(__dirname, 'test', 'index.js'));
+console.log('Resolved path:', path.resolve('test', 'index.js'));
+console.log('Normalized path:', path.normalize('/foo/bar//baz/asdf/quux/..'));
+console.log('Is absolute path:', path.isAbsolute('/foo/bar'));
+console.log('Relative path:', path.relative('/foo/bar/baz', '/foo/bar/qux'));
+console.log('Path to URL:', path.toNamespacedPath('/foo/bar/baz'));

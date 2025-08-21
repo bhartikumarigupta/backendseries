@@ -1,0 +1,2 @@
+If we worked with javascript in the browser , we know how much of the interaction of the user is handled through events : mouse clicks , keyboard button presses , reacting to mouse movements , and so on it . 
+EventEmitter class which we will use to handle our events .
